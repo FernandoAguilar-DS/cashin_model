@@ -1,0 +1,21 @@
+{
+  "project_id": "spin-aip-singularity-comp-sb",
+  "table_fqn": "spin-aip-singularity-comp-sb.model_activation.dataste_model_activation_timewindow_reduction_V-1-4-1",
+  "label_col": "label_activated_30d",
+  "signup_ts_col": "signup_ts",
+  "signup_date_col": "signup_date",
+  "n_total": 2426355,
+  "n_train": 2300923,
+  "n_val": 124031,
+  "n_test": 71198,
+  "pos_rate_total": 0.6088280569001651,
+  "pos_rate_train": 0.614692451681347,
+  "pos_rate_val": 0.5822092863880804,
+  "pos_rate_test": 0.4507991797522402,
+  "train_date_min": "2025-01-01",
+  "train_date_max": "2025-10-11",
+  "val_date_min": "2025-10-04",
+  "val_date_max": "2025-10-17",
+  "test_date_min": "2025-10-18",
+  "test_date_max": "2025-10-26"
+}
