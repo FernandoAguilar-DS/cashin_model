@@ -228,10 +228,10 @@ SELECT
 
   -- Métricas de actividad (de s, txfa, y calculadas)
   s.latest_tx_date,
-  s.lifespan_days, -- <-- NUEVA
+  s.lifespan_days, 
   DATE_DIFF(CURRENT_DATE("America/Mexico_City"), s.latest_tx_date, DAY) AS days_since_last,
   txfa.tx_30d_from_activation,
-  DATE_DIFF(s.first_tx_date, c.signup_date, DAY) AS days_to_first_activation -- <-- NUEVA
+  DATE_DIFF(s.first_tx_date, c.signup_date, DAY) AS days_to_first_activation 
 
 FROM conf c
 LEFT JOIN tx_span              s    ON s.user_id = c.user_id
