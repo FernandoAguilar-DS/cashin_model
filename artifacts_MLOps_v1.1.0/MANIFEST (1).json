@@ -1,0 +1,16 @@
+{
+  "convertido_en_utc": "2026-07-24T17:18:32+00:00",
+  "origen": "/home/jupyter/FCI/artifacts",
+  "serializador": "cloudpickle 3.1.2 (por valor)",
+  "ATENCION": "Pickles por valor: cargar con la MISMA version de Python.",
+  "python": "3.10.19",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "scikit_learn": "1.7.2",
+  "joblib": "1.5.3",
+  "md5": {
+    "feature_builder.pkl": "e18918757c21eef446befae29c8bac98",
+    "model_activation_30d.pkl": "63a40766d205022d2c5e5b15c0c88176",
+    "model_tx_type.pkl": "8675dbaf2341c169ef0d4eaa741cb50f"
+  }
+}
